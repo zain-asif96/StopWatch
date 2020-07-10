@@ -1,0 +1,83 @@
+body {
+    background-color: #150933 !important;
+}
+
+button:focus {
+    outline: none !important;
+}
+
+button:active {
+    border-style: none !important;
+}
+
+.stop-watch-container {
+    width: 200px;
+    height: 200px;
+    border: 2px dashed #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 33px;
+}
+
+.stop-watch {
+    width: 150px;
+    height: 150px;
+    border: 2px double #fff;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.stop-watch span {
+    color: white;
+    font-weight: bold;
+}
+
+.stop-watch h4,
+.stop-watch h6 {
+    display: inline-block;
+    color: #ffff;
+    width: 33px;
+}
+
+.stop-watch h4 {
+    font-size: 31px;
+    /* margin-right: 1px; */
+    font-weight: bold;
+}
+
+.stop-watch h6 {
+    font-size: 20px;
+    font-weight: 500;
+    /* margin-left: 4px; */
+}
+
+.button-container button {
+    color: #fff;
+    background-color: orange;
+    border: transparent;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+}
+
+.button-container button:hover {
+    border: 2px dotted #fff;
+}
+
+.button-container .play {
+    margin-left: 0;
+}
+
+.button-container button:first-child {
+    margin-left: 0;
+}
+
+.reset, 
+.pause {
+    display: none;
+}
